@@ -1,0 +1,24 @@
+<?php get_header(); ?>
+
+<section class="hero">
+  <h2>Reliable Computer Support, Anytime</h2>
+  <p>Fast, affordable, and professional support for all your PC needs.</p>
+  <a href="<?php echo site_url('/contact'); ?>" class="btn">Get Support</a>
+</section>
+
+<section class="services">
+  <div class="service">
+    <h3>🦠 Virus Removal</h3>
+    <p>We’ll remove malware and keep your system secure.</p>
+  </div>
+  <div class="service">
+    <h3>💾 Data Recovery</h3>
+    <p>Recover lost files and secure your backups.</p>
+  </div>
+  <div class="service">
+    <h3>🖥 Remote Repair</h3>
+    <p>Quick remote fixes for software and system issues.</p>
+  </div>
+</section>
+
+<?php get_footer(); ?>
